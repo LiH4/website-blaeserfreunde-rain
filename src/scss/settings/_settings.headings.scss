@@ -1,0 +1,9 @@
+@import "_settings.typography";
+
+h1, h2 {
+    color: $color-accent-1;
+    font-family: $font-family-brand;
+    font-style: italic;
+    font-size: 3rem;
+    text-align: center;
+}

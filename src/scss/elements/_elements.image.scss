@@ -1,0 +1,15 @@
+.image {
+
+  &.image--default {
+    border-radius: 0.5rem;
+  }
+
+  &.image--special-border-radius-left {
+    border-radius: 0 0.5rem 0.5rem 0;
+  }
+
+  &.image--special-border-radius-right {
+    border-radius: 0.5rem 0 0 0.5rem;
+  }
+}
+

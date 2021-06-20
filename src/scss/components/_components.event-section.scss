@@ -1,0 +1,13 @@
+.c-event-section {
+  background-image: url("../images/trompete.jpg");
+  background-position: center;
+  background-size: cover;
+
+  .c-event-section__cover-image {
+    position: relative;
+
+    img {
+      width: 100%;
+    }
+  }
+}

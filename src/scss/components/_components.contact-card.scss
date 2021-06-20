@@ -1,0 +1,37 @@
+.c-contact-section {
+
+    /*.c-contact-card {
+    border: 1px solid $color-tertiary;
+    border-radius: 0.75rem;
+    padding: 3rem;
+    background-color: #BCBDBD;
+
+    .c-contact-card__info-box {
+        margin-bottom: 3rem;
+    }
+}*/
+
+    .c-contact-card {
+        border-radius: 0.5rem;
+        margin-top: 4rem;
+        padding: 3rem;
+        background-color: rgba($color-primary, 0.7);
+
+        .c-contact-card__info-box {
+            margin-bottom: 3rem;
+
+            .o-eyebrow {
+                color: $white;
+            }
+
+            .c-content__text {
+                color: $white;
+
+                &.c-content__text--highlight {
+                    color: #5272B6;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.c-latest-section {
+
+  .c-latest__image {
+    
+    img {
+      width: 45rem;
+    }
+  }
+
+  .c-latest__image--right {
+    display: flex;
+    justify-content: flex-end;
+
+    img {
+      width: 45rem;
+    }
+  }
+
+  .c-latest__news-text {
+
+    p {
+      line-height: 1.5rem;
+    }
+  }
+}
+

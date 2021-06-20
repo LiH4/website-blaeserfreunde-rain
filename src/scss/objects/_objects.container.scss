@@ -1,0 +1,15 @@
+.o-container {
+    margin: 0 8rem;
+
+    &.o-container--text-align-center {
+        text-align: center;
+    }
+
+    &.o-container--news-left {
+        margin: 0 8rem 4rem 0;
+    }
+
+    &.o-container--news-right {
+        margin: 0 0 4rem 8rem;
+    }
+}
